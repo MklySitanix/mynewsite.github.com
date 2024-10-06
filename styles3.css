@@ -1,0 +1,197 @@
+body {
+    font-family: Franklin Gothic Medium, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-size: 22px;
+    color: white;
+    background-color: #222222;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#ssylki {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    background-color: #A9A9A9;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#ssylki a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+#ssylki a:hover {
+    color: #dcdcdc;
+}
+section {
+    margin: 20px;
+    padding: 10px;
+}
+nav {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+nav ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    margin-bottom: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #333;
+}
+#Заголовок1, #Заголовок2 {
+    background-color: #222222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#Заголовок2 {
+    font-size: 20px;
+}
+.device {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.device h4 {
+    background-color: #d9d9d9;
+    padding: 5px;
+    margin-top: 0;
+}
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: 20px auto;
+}
+th {
+    background-color: #000;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+#Видео {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#Видео h2, #Видео p {
+    color: white;
+    text-align: center;
+}
+#Видео ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+#Видео ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#Видео ul li img {
+    margin-left: 200px;
+    border-radius: 15px;
+}
+#Видео a {
+    color: white;
+}
+#Видео a:hover {
+    color: #D3D3D3;
+}
+footer {
+    font-size: 1em;
+    color: #333;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #222222;
+    text-align: center;
+}
+footer p {
+    color: white;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+}
+li.device {
+    flex: 1 1 45%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+@media (max-width: 1200px) {
+    header {
+        font-size: 1.8em;
+    }
+
+    #ssylki a {
+        font-size: 1.1em;
+        margin: 10px;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5em;
+    }
+    #ssylki {
+        flex-direction: column;
+        align-items: center;
+    }
+    #ssylki a {
+        font-size: 1.2em;
+        margin: 5px 0;
+    }
+    ul li.device {
+        flex: 1 1 100%;
+    }
+    table {
+        font-size: 0.9em;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2em;
+    }
+    ul li.device {
+        font-size: 0.9em;
+    }
+    table {
+        font-size: 0.8em;
+    }
+    #Видео ul li img {
+        margin-left: 0;
+    }
+}
