@@ -4,7 +4,16 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
+#ssylki {
+    font-size: 15px;
+    color: white;
+    background-color: #A9A9A9;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 header {
     font-size: 22px;
     color: white;
