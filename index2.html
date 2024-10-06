@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Купить продукцию Apple</title>
+<link rel="stylesheet" href="css/styles2.css">
+</head>
+<body style="font-family: Franklin Gothic Medium, sans-serif;">
+<header>
+<h1>Купить продукцию Apple</h1>
+</header>
+<h1 id="ssylki">
+<a href="index.html"id="ssylki">Главная страница</a>
+<a href="index2.html"id="ssylki">Купить</a>
+<a href="index1.html"id="ssylki">Прошлые модели</a>
+</h1>
+    <section id="Основная информация">
+        <h2>Новые модели IPad 2024</h2>
+        <div class="device">
+            <h4>IPad Pro 2024</h4>
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-finish-select-202405-13inch-spaceblack-glossy-wificell?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1713697851258" alt="IPad Pro" width="300">
+            <h3>Выберите характеристики iPad:</h3>
+            <h3>Цвет:</h3>
+            <input type="radio" name="color" value="black">
+            <label for="color_black">Черный</label><br>
+            <input type="radio" name="color" value="silver">
+            <label for="color_silver">Серебристый</label><br>
+            <input type="radio" name="color" value="gold">
+            <label for="color_gold">Золотой</label><br>
+            <h3>Память:</h3>
+            <select>
+                <option value="256">256 ГБ</option>
+                <option value="512">512 ГБ</option>
+                <option value="2">2 ТБ</option>
+            </select>
+            <h3>Модель:</h3>
+            <input type="checkbox" name="model" value="wifi">
+            <label for="model_wifi">Wi-Fi</label><br>
+            <input type="checkbox" name="model" value="cellular"><label for="model_cellular">Wi-Fi + Cellular</label><br><br>
+            <button onclick="buy()">Купить</button>
+            <script>
+                function buy() {
+                    alert("Поздравляем с покупкой");
+                }
+            </script>
+        </div>
+        <div class="device">
+            <h4>IPad Air 2024</h4>
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-model-unselect-gallery-1-202405?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1713559204929" alt="IPad Air" width="300">
+            <h3>Выберите характеристики iPad:</h3>
+            <h3>Цвет:</h3>
+            <input type="radio" name="color" value="gray">
+            <label for="color_gray">Серебристый</label><br>
+            <input type="radio" name="blue" value="blue">
+            <label for="color_blue">Голубой</label><br>
+            <input type="radio" name="color" value="starlight">
+            <label for="color_starlight">Звёздный свет</label><br>
+            <h3>Память:</h3>
+            <select>
+                <option value="256">256 ГБ</option>
+                <option value="512">512 ГБ</option>
+                <option value="2">2 ТБ</option>
+            </select>
+            <h3>Модель:</h3>
+            <input type="checkbox" name="model" value="wifi">
+            <label for="model_wifi">Wi-Fi</label><br>
+            <input type="checkbox" name="model" value="cellular"><label for="model_cellular">Wi-Fi + Cellular</label><br><br>
+            <button onclick="buy()">Купить</button>
+        </div>
+    </section>
+    <footer>
+        <p>Создатель: Николай Золотов (Sitanix)<br>Группа: БИ-23-1<br>Лабораторная работа №10</p>
+    </footer>
+</body>
+</html>
