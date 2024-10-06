@@ -136,8 +136,13 @@ footer {
     background-color: #222222;
     text-align: center;
 }
-footer p {
-    color: white;
+footer {
+    font-size: 1em;
+    color: #fff;
+    background-color: #222222;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
 }
 ul {
     display: flex;
